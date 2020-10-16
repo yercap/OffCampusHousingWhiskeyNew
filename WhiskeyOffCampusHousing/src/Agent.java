@@ -41,6 +41,6 @@ public class Agent {
 	}
 	
 	public void editSimilarProperty(int propertyID, ArrayList<Property> similarProperties) {
-		myProperties.add(propertyID, similarProperties);
+		myProperties.set(propertyID, similarProperties);
 	}
 }
