@@ -26,6 +26,6 @@ public class Student {
 	}
 	
 	public void addPropertyReview(Property property, int rating, String comment) {
-		favoriteProperties.add(property, rating, comment);
+		reviews.add(property, rating, comment);
 	}
 }
