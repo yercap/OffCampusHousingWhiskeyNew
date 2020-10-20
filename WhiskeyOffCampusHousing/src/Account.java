@@ -9,6 +9,6 @@ public class Account {
 	}
 	
 	public ArrayList<Property> getProperties(String keyword) {
-		
+		return properties;
 	}
 }
