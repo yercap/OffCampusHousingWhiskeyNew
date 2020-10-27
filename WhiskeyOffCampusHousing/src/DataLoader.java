@@ -50,6 +50,9 @@ public class DataLoader extends DataConstants {
 		ArrayList<Property> properties = new ArrayList<Property>();
 		
 		try {
+			FileReader reader = new FileReader(PROPERTY_FILE);
+			JSONParser parser = new JSONParser();
+			JSONArray accountsJSON = (JSONArray)new JSONParser().parse(reader);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -66,6 +69,9 @@ public class DataLoader extends DataConstants {
 		ArrayList<Review> reviews = new ArrayList<Review>();
 		
 		try {
+			FileReader reader = new FileReader(REVIEW_FILE);
+			JSONParser parser = new JSONParser();
+			JSONArray accountsJSON = (JSONArray)new JSONParser().parse(reader);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
