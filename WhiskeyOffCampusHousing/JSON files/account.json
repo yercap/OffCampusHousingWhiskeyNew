@@ -1,19 +1,2 @@
-{"account":[
-  {
-  	"firstName":"John",
-  	"lastName":"Snow",
-    "userName":"jonsnowK",
-	"uscID":1
-    "email":"winteriscoming@gmail.com",
-    "favoriteProperties":"TODO List",
-    "type":"Student",
-  },{
-  	"firstName":"Katrina",
-  	"lastName":"Campins",
-    "userName":"kcampins",
-	"uscID":2
-    "email":"kcampins@gmail.com",
-    "favoriteProperties":"TODO List",
-    "type":"Agent",
-  }
-]}
+[{"firstName":"John","lastName":"Snow","userName":"jonsnowK","uscID":1"email":"winteriscoming@gmail.com","favoriteProperties":"TODO List","type":"Student"},
+{"firstName":"Katrina","lastName":"Campins","userName":"kcampins","uscID":2"email":"kcampins@gmail.com","favoriteProperties":"TODO List","type":"Agent"}]

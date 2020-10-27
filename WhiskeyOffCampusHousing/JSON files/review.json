@@ -1,7 +1,6 @@
-{"review":[
-  {
+[{
 	"writer":"John Snow",
 	"rating":4,
 	"feedback":"This is a review."
   }
-]}
+}]
