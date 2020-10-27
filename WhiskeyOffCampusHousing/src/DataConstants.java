@@ -17,6 +17,7 @@ public abstract class DataConstants {
 	protected static final String PROPERTY_PRICE = "price";
 	protected static final String PROPERTY_AGENT = "agent";
 	protected static final String PROPERTY_DIST = "distanceToCampus";
+	protected static final String PROPERTY_DESCRIPTION = "description";
 	protected static final String PROPERTY_RESTRICTION = "restriction";
 	protected static final String PROPERTY_DESCRIPTION = "description";
 	protected static final String PROPERTY_SIMILAR_PROPERTIES = "similarProperties";
