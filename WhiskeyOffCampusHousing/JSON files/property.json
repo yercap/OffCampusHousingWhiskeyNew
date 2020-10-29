@@ -1,26 +1,5 @@
-[{
-  	"title":"Reign Living at the Stadium",
-  	"address":"1105 Shop Rd, Columbia, SC 29205",
-    "bedrooms":5,
-	"bathrooms":4,
-    "dwellingType":"apartment",
-    "price":960,
-    "agent":"Katrina Campins",
-	"distToCampus":100,
-	"description":"This is Reign",
-	"restriction":"Pet Friendly",
-	"similarProperties":"Similar Properties",
-	"reviews":"This is a review."
-  },{
-  	"title":"Pulaski Square",
-  	"address":"521 College St, Columbia, SC 29201",
-    "bedrooms":3,
-	"bathrooms":3,
-    "dwellingType":"condo",
-    "price":810,
-    "agent":"Katrina Campins",
-	"distToCampus":100,
-	"description":"This is Pulaski Square",
+[{"title":"Reign Living at the Stadium","address":"1105 Shop Rd, Columbia, SC 29205","bedrooms":5,"bathrooms":4,"dwellingType":"apartment","price":960,"agent":"Katrina Campins","distToCampus":100,"description":"This is Reign","restriction":"Pet Friendly","similarProperties":"Similar Properties","reviews":"This is a review."},
+{"title":"Pulaski Square","address":"521 College St, Columbia, SC 29201","bedrooms":3,"bathrooms":3,"dwellingType":"condo","price":810,"agent":"Katrina Campins","distToCampus":100,"description":"This is Pulaski Square",
 	"restriction":"Tobacco Free",
 	"similarProperties":"Similar Properties",
 	"reviews":"This is a review."
