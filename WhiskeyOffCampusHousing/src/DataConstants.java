@@ -13,6 +13,7 @@ public abstract class DataConstants {
 	protected static final String PROPERTY_TITLE = "title";
 	protected static final String PROPERTY_ADDRESS = "address";
 	protected static final String PROPERTY_BEDROOMS = "bedrooms";
+	protected static final String PROPERTY_BATHROOMS = "bathrooms";
 	protected static final String PROPERTY_DWELLING_TYPE = "dwellingType";
 	protected static final String PROPERTY_PRICE = "price";
 	protected static final String PROPERTY_AGENT = "agent";

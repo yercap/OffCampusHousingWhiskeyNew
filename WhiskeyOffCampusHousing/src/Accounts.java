@@ -15,7 +15,7 @@ public class Accounts {
 	
 	public static Accounts getInstance() {
 		if (accounts == null) {
-			accounts = new Student();
+			accounts = new Accounts();
 		}
 		
 		return accounts;
