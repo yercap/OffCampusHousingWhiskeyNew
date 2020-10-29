@@ -24,7 +24,7 @@ public abstract class DataConstants {
 	protected static final String PROPERTY_REVIEWS = "reviews";
 	
 	protected static final String REVIEW_FILE = "JSON files/review.json";
-	protected static final String REIVEW_WRITER = "writer";
-	protected static final String REIVEW_RATING = "rating";
-	protected static final String REIVEW_FEEDBACK = "feedback";
+	protected static final String REVIEW_WRITER = "writer";
+	protected static final String REVIEW_RATING = "rating";
+	protected static final String REVIEW_FEEDBACK = "feedback";
 }

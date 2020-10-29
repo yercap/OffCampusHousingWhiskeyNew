@@ -25,6 +25,7 @@ public class DataLoader extends DataConstants {
 			
 			for (int i =0; i < accountsJSON.size(); i++) {
 				JSONObject accountJSON = (JSONObject)accountsJSON.get(i);		
+				
 				String firstName = (String)accountJSON.get(ACCOUNT_FIRST_NAME);
 				String lastName = (String)accountJSON.get(ACCOUNT_LAST_NAME);
 				String userName = (String)accountJSON.get(ACCOUNT_USERNAME);
@@ -57,6 +58,7 @@ public class DataLoader extends DataConstants {
 			
 			for (int i = 0; i < propertiesJSON.size(); i++) {
 				JSONObject propertyJSON = (JSONObject)propertiesJSON.get(i);
+				
 				String title = (String)propertyJSON.get(PROPERTY_TITLE);
 				String address = (String)propertyJSON.get(PROPERTY_ADDRESS);
 				int bedrooms = (int)propertyJSON.get(PROPERTY_BEDROOMS);
@@ -90,7 +92,17 @@ public class DataLoader extends DataConstants {
 		try {
 			FileReader reader = new FileReader(REVIEW_FILE);
 			JSONParser parser = new JSONParser();
-			JSONArray accountsJSON = (JSONArray)new JSONParser().parse(reader);
+			JSONArray reviewsJSON = (JSONArray)new JSONParser().parse(reader);
+			
+			for (int i = 0; i < reviewsJSON.size(); i++) {
+				JSONObject reviewJSON = (JSONObject)reviewsJSON.get(i);
+				
+				Student writer = (Student)reviewJSON.get(REVIEW_WRITER);
+				int rating = (int)reviewJSON.get(REVIEW_RATING);
+				String feedback = (String)reviewJSON.get(REVIEW_FEEDBACK); //Shouldn't this be in the ArrayList<Review>?
+				
+				reviews.add(new Review(writer, rating, feedback));
+			}
 			
 		} catch (Exception e) {
 			e.printStackTrace();
