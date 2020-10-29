@@ -65,12 +65,12 @@ public class DataLoader extends DataConstants {
 				double price = (double)propertyJSON.get(PROPERTY_PRICE);
 				String agent = (String)propertyJSON.get(PROPERTY_AGENT);
 				int distToCampus = (int)propertyJSON.get(PROPERTY_DIST);
-				String description = (String)propertyJSON.get(PROPERTY_DESCRIPTION);
-				String restriction = (String)propertyJSON.get(PROPERTY_RESTRICTION);
+				ArrayList<String> description = (ArrayList<String>)propertyJSON.get(PROPERTY_DESCRIPTION);
+				ArrayList<Restriction> restriction = (ArrayList<Restriction>)propertyJSON.get(PROPERTY_RESTRICTION); // Check if this can be just an ArrayList of Strings only
 				ArrayList<Property> similarProperties = (ArrayList<Property>)propertyJSON.get(PROPERTY_SIMILAR_PROPERTIES);
 				ArrayList<Review> reviews = (ArrayList<Review>)propertyJSON.get(PROPERTY_REVIEWS);
 				
-				
+				properties.add(new Property(title, address, price, description, bedrooms, bathrooms, distToCampus, restriction));
 			}
 			
 		} catch (Exception e) {
